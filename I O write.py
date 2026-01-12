@@ -1,0 +1,5 @@
+f=open("demo.txt","w")
+f.write("This ia a new line")
+f=open("demo.txt","w")
+f.write("I want to learn java script tommorrow : 123")
+f.close()
