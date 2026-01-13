@@ -120,17 +120,17 @@ The output will be displayed immediately below the command.
 
 6. To exit the interactive session:
 
-- Type exit() and press Enter, OR
+   - Type exit() and press Enter, OR
 
-- Press Ctrl + Z then Enter on Windows, OR
+   - Press Ctrl + Z then Enter on Windows, OR
 
-- Press Ctrl + D on macOS/Linux.
-
-
+   - Press Ctrl + D on macOS/Linux.
 
 
-### List of programs
-___
+
+
+## List of programs
+
 
 1. [1.py](1.py)
 
