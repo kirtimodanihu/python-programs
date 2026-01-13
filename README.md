@@ -46,11 +46,92 @@ An installation wizard like the one below will appear on your screen:
 </details>
 
 
+✔ VS Code automatically shows:
+- Dark background
+- `bash` label
+- Copy button (in preview)
+- Monospace font
+
+---
+
+## 7️⃣ Full Example (Copy–Paste Ready)
+
+After installing Python, you can run it either in an **interactive interpreter session**
+for immediate feedback or by executing a **script file** from your command line.
+
+## Step 1: Verify Installation
+
+First, confirm that the installation was successful and that Python is accessible
+from your system's command line or terminal.
+
+- Open your command prompt (**Windows**) or terminal (**macOS/Linux**).
+- Type the following command and press `Enter` :
+
+```bash 
+python --version
+```
+
+or 
+
+```bash
+python3 --version
+```
+
+or (on Windows)
+```bash
+py --version
+```
+
+- If successful, you will see the installed Python version (e.g., Python 3.14.2).
+- If you get an error like 'python' is not recognized..., you may need to add Python to your system's PATH environment variable. The installer usually offers a checkbox for this (labeled "Add python.exe to PATH") which should be checked during installation.
+
+# Step 2: Run Python Code
+
+You have two primary methods for running Python code:
+
+---
+
+## Method 1: Interactive Mode (REPL)
+
+This method lets you execute Python code line by line and get immediate results,  
+great for testing small snippets or learning the language.
+
+---
+
+### Steps
+
+1. Open your command prompt or terminal.
+
+2. Type `python`  
+   (or `py` on Windows, `python3` on Linux/macOS) and press **Enter**.
+
+3. You will see `>>>` prompts, indicating you are in the Python interpreter.
+
+4. Type a Python command, for example:
+
+```bash
+python
+
+
+print("Hello, World!")
+```
+5. Press Enter.
+The output will be displayed immediately below the command.
+
+6. To exit the interactive session:
+
+- Type exit() and press Enter, OR
+
+- Press Ctrl + Z then Enter on Windows, OR
+
+- Press Ctrl + D on macOS/Linux.
 
 
 
 
 ### List of programs
+___
+
 1. [1.py](1.py)
 
 2. [2.py](2.py)
@@ -176,6 +257,7 @@ An installation wizard like the one below will appear on your screen:
 62. [Set1.py](Set1.py)
 
 63. [set2.py](Set2.py)
+
 
 
 
